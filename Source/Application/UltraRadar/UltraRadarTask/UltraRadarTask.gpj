@@ -1,0 +1,6 @@
+#!gbuild
+[Subproject]
+
+UltraRadarBasicTask.c
+UltraRadarObjDetect.c
+UltraRadarSlotSearching.c

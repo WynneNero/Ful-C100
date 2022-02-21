@@ -1,0 +1,7 @@
+#!gbuild
+[Subproject]
+
+ussLibAdapt.c
+Comps\Comps.gpj
+UltraRadarDriver\UltraRadarDriver.gpj
+UltraRadarTask\UltraRadarTask.gpj

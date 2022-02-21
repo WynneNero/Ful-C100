@@ -1,0 +1,62 @@
+#!gbuild
+primaryTarget=v800_standalone.tgt
+#component top_level_project
+[Project]
+
+	-object_dir=obj
+	:sourceDir=.
+	-language=cxx
+
+	-G
+	-H
+	#-full_debug_info
+	-inline_prologue
+	
+	-no_v850_simd
+	-fsoft
+	
+	--unknown_pragma_warnings
+	-D__TOOL_GHS__
+	
+#object file generation options	
+	-gsize
+	-Mu
+	-Ml
+	-Mx
+	-callgraph
+    #-check=all
+	
+#speficy target generation format	
+	-hex
+	-srec
+
+#options disabled to speed up build process, enable them if necessary
+	#-list     #generate listing file contains ASM instructions
+	#-memory
+
+	
+#currently not applicable opitons, error occurs when enable them
+    #-coverage=flag    #[elxr] (error) section .osTaskStack5 (0xfedffcc0-0xfee0016f) doesn't fit in memory block iRAM_0 (0xfedfc000-0xfedfffff)
+    #-check=memory     #[elxr] (error) section .osTaskStack4 (0xfedffe10-0xfee002bf) doesn't fit in memory block iRAM_0 (0xfedfc000-0xfedfffff)
+    #-checksum         #[elxr] (error) section .osEIINTVectorTable_c0 (0x400-0x803) doesn't fit in memory block iROM_EIINTV (0x400-0x7ff)
+    #-timer_profile    #[elxr] (error) unresolved symbols: 1 ___ghs_manprf_timer_handler   from <elxr>
+	
+    #-nofpu
+    #-elf
+    #-P   			   #generate .i file after precompile, conflcit with -O option #ccv850: Error: -o obj\uart.o has wrong suffix for -P option (expect .i)
+
+	-DIC_RH850_F1K
+	-bsp generic
+	-cpu=rh850g3kh
+	-I.\Source\vicp\ComplexDriver\CAN\mgr
+	-I.\Source\Application\APSApp\APSApplication
+	-I.\Source\Application\APSApp\APSApplication
+	-I.\Source\Application\APSApp\StateMachine
+	-I.\Source\Application\BSD
+	-I.\Source\Application\PDClib\20190322
+	-rawimport Source\Bootloader\Source\01_Configuration\01_IDE\obj\vicp.mem
+	--preprocess_linker_directive
+	-Osize
+	-dwarf2
+vicp_multi_proj.gpj		[Program]
+vicp.con

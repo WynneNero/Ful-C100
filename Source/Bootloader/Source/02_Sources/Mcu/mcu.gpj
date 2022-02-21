@@ -1,0 +1,6 @@
+#!gbuild
+[Subproject]
+dr7f701583_0.h
+dr7f701583_irq.h
+dr7f701581_startup.850
+cpu.h

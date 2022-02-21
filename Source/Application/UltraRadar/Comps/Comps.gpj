@@ -1,0 +1,6 @@
+#!gbuild
+[Subproject]
+SRU_HWA\SRU_HWA.gpj
+ObjDetect\ObjDetect.gpj
+SlotSearching\SlotSearching.gpj
+VehicleControl\VehicleControl.gpj

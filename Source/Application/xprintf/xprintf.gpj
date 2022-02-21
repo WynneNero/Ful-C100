@@ -1,0 +1,4 @@
+#!gbuild
+[Subproject]
+xprintf.c
+debugUartDriver.c

@@ -1,0 +1,4 @@
+#!gbuild
+[Subproject]
+
+InputSignalProc\InputSignalProc.gpj

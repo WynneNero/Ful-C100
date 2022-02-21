@@ -1,0 +1,514 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: ADV APA
+
+
+BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
+ SG_ YRS_2_Reserve : 0|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ YRS_1_Reserve : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved : 0|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved : 0|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved : 0|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved : 0|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved : 0|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved : 0|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved : 0|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved : 0|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved : 0|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved : 0|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved : 0|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved : 0|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved : 0|41@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved : 0|18@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved : 0|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved : 0|50@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved : 0|2@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 721 RightCurbInfo: 8 APA
+ SG_ RightCurb_AngleFlag : 52|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ RightCurb_Angle : 53|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ RightCurb_Status : 48|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ RightCurb_StartPointY : 12|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ RightCurb_StartPointX : 1|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ RightCurb_StartPointFlag : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ RightCurb_Height : 46|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ RightCurb_EndPointY : 35|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ RightCurb_EndPointX : 24|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ RightCurb_EndPointFlag : 23|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ RightCurb_Direction : 51|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 720 LeftCurbInfo: 8 APA
+ SG_ LeftCurb_Direction : 51|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LeftCurb_AngleFlag : 52|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LeftCurb_Angle : 53|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ LeftCurb_Status : 48|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LeftCurb_StartPointY : 12|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ LeftCurb_StartPointX : 1|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ LeftCurb_StartPointFlag : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LeftCurb_Height : 46|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LeftCurb_EndPointY : 35|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ LeftCurb_EndPointX : 24|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ LeftCurb_EndPointFlag : 23|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 714 Freespace9_ObstacleInfo: 8 APA
+ SG_ Freespace9_ObstacleStatus : 48|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace9_ObstacleProperty : 51|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace9_ObstacleHeight : 52|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace9_ObstacleStartPointY : 11|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ Freespace9_ObstacleStartPointX : 0|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ Freespace9_ObstacleStartPointFla : 22|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace9_ObstacleEndPointY : 35|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ Freespace9_ObstacleEndPointX : 24|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ Freespace9_ObstacleEndPointFlag : 46|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 713 Freespace8_ObstacleInfo: 8 APA
+ SG_ Freespace8_ObstacleStatus : 48|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace8_ObstacleProperty : 51|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace8_ObstacleHeight : 52|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace8_ObstacleStartPointY : 11|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ Freespace8_ObstacleStartPointX : 0|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ Freespace8_ObstacleStartPointFla : 22|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace8_ObstacleEndPointY : 35|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ Freespace8_ObstacleEndPointX : 24|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ Freespace8_ObstacleEndPointFlag : 46|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 712 Freespace7_ObstacleInfo: 8 APA
+ SG_ Freespace7_ObstacleStatus : 48|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace7_ObstacleProperty : 51|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace7_ObstacleHeight : 52|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace7_ObstacleEndPointY : 35|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ Freespace7_ObstacleEndPointX : 24|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ Freespace7_ObstacleEndPointFlag : 46|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace7_ObstacleStartPointY : 11|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ Freespace7_ObstacleStartPointX : 0|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ Freespace7_ObstacleStartPointFla : 22|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 711 Freespace6_ObstacleInfo: 8 APA
+ SG_ Freespace6_ObstacleHeight : 52|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace6_ObstacleProperty : 51|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace6_ObstacleStatus : 48|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace6_ObstacleEndPointFlag : 46|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Freespace6_ObstacleEndPointY : 35|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ Freespace6_ObstacleEndPointX : 24|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ Freespace6_ObstacleStartPointFla : 22|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace6_ObstacleStartPointY : 11|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ Freespace6_ObstacleStartPointX : 0|11@1+ (1,0) [0|2047] "" Vector__XXX
+
+BO_ 710 Freespace5_ObstacleInfo: 8 APA
+ SG_ Freespace5_ObstacleHeight : 52|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace5_ObstacleProperty : 51|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace5_ObstacleStatus : 48|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace5_ObstacleStartPointFla : 22|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace5_ObstacleEndPointY : 35|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ Freespace5_ObstacleEndPointX : 24|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ Freespace5_ObstacleStartPointY : 11|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ Freespace5_ObstacleStartPointX : 0|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ Freespace5_ObstacleEndPointFlag : 46|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 709 Freespace4_ObstacleInfo: 8 APA
+ SG_ Freespace4_ObstacleHeight : 52|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace4_ObstacleProperty : 51|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace4_ObstacleStatus : 48|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace4_ObstacleEndPointFlag : 46|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace4_ObstacleEndPointY : 35|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ Freespace4_ObstacleEndPointX : 24|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ Freespace4_ObstacleStartPointFla : 22|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace4_ObstacleStartPointY : 11|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ Freespace4_ObstacleStartPointX : 0|11@1+ (1,0) [0|2047] "" Vector__XXX
+
+BO_ 708 Freespace3_ObstacleInfo: 8 APA
+ SG_ Freespace3_ObstacleHeight : 52|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace3_ObstacleProperty : 51|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace3_ObstacleStatus : 48|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace3_ObstacleEndPointFlag : 46|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace3_ObstacleEndPointY : 35|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ Freespace3_ObstacleEndPointX : 24|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ Freespace3_ObstacleStartPointFla : 22|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace3_ObstacleStartPointY : 11|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ Freespace3_ObstacleStartPointX : 0|11@1+ (1,0) [0|2047] "" Vector__XXX
+
+BO_ 707 Freespace2_ObstacleInfo: 8 APA
+ SG_ Freespace2_ObstacleHeight : 52|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace2_ObstacleProperty : 51|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace2_ObstacleStatus : 48|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace2_ObstacleEndPointFlag : 46|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace2_ObstacleEndPointY : 35|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ Freespace2_ObstacleEndPointX : 24|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ Freespace2_ObstacleStartPointFla : 22|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace2_ObstacleStartPointY : 11|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ Freespace2_ObstacleStartPointX : 0|11@1+ (1,0) [0|2047] "" Vector__XXX
+
+BO_ 706 Freespace1_ObstacleInfo: 8 APA
+ SG_ Freespace1_ObstacleHeight : 52|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace1_ObstacleProperty : 51|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace1_ObstacleStatus : 48|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace1_ObstacleEndPointFlag : 46|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace1_ObstacleEndPointY : 35|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ Freespace1_ObstacleEndPointX : 24|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ Freespace1_ObstacleStartPointFla : 22|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace1_ObstacleStartPointY : 11|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ Freespace1_ObstacleStartPointX : 0|11@1+ (1,0) [0|2047] "" Vector__XXX
+
+BO_ 716 Freespace11_ObstacleInfo: 8 APA
+ SG_ Freespace11_ObstacleProperty : 51|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace11_ObstacleHeight : 52|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace11_ObstacleStatus : 48|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace11_ObstacleEndPointFlag : 46|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace11_ObstacleEndPointY : 35|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ Freespace11_ObstacleEndPointX : 24|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ Freespace11_ObstacleStartPointX : 0|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ Freespace11_ObstacleStartPointY : 11|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ Freespace11_ObstacleStartPointFl : 22|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 715 Freespace10_ObstacleInfo: 8 APA
+ SG_ Freespace10_ObstacleHeight : 52|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace10_ObstacleProperty : 51|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace10_ObstacleStatus : 48|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace10_ObstacleEndPointFlag : 46|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace10_ObstacleEndPointY : 35|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ Freespace10_ObstacleEndPointX : 24|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ Freespace10_ObstacleStartPointFl : 22|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace10_ObstacleStartPointY : 11|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ Freespace10_ObstacleStartPointX : 0|11@1+ (1,0) [0|2047] "" Vector__XXX
+
+BO_ 705 Freespace0_ObstacleInfo: 8 APA
+ SG_ Freespace0_ObstacleHeight : 52|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace0_ObstacleProperty : 51|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace0_ObstacleStatus : 48|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace0_ObstacleStartPointX : 0|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ Freespace0_ObstacleStartPointY : 11|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ Freespace0_ObstacleStartPointFla : 22|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Freespace0_ObstacleEndPointX : 24|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ Freespace0_ObstacleEndPointY : 35|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ Freespace0_ObstacleEndPointFlag : 46|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 723 APS_Replan_2: 8 APA
+ SG_ APS_Replan_UpperLineAngle : 12|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ APS_Replan_UpperLineDistance : 1|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ APS_Replan_UpperLineFlag : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 722 APS_Replan_1: 8 APA
+ SG_ APS_Replan_RightLineAngle : 35|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ APS_Replant_RightLineDistance : 24|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ APS_Replan_RightLineFlag : 23|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Replan_LeftLineAngle : 12|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ APS_Replan_LeftLineDistance : 1|11@1+ (1,0) [0|2047] "" Vector__XXX
+ SG_ APS_Replan_LeftLineFlag : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 448 ADV_P1: 8 ADV
+ SG_ Reserved : 36|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ADV_RealignWayPoint : 46|2@1+ (1,0) [0|0] ""  APA
+ SG_ ADV_RealignMode : 44|2@1+ (1,0) [0|0] ""  APA
+ SG_ ADV_ReplanWayPoint : 42|2@1+ (1,0) [0|0] ""  APA
+ SG_ ADV_ReplanMode : 40|2@1+ (1,0) [0|0] ""  APA
+ SG_ ADV_Pose_Angle : 24|12@1- (0.005,0) [0|0] "rad"  APA
+ SG_ ADV_Pose_Y : 12|12@1- (1,0) [0|0] ""  APA
+ SG_ ADV_Pose_X : 0|12@1- (1,0) [0|0] ""  APA
+
+BO_ 417 APS_1: 8 APA
+ SG_ APS_ReplanType : 11|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_CloseLoopDetection : 10|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Status : 0|4@1+ (1,0) [0|0] ""  ADV
+ SG_ APS_ReplanResult : 4|2@1+ (1,0) [0|0] ""  ADV
+ SG_ APS_RealignResult : 8|2@1+ (1,0) [0|0] ""  ADV
+
+
+
+CM_ "
+
+";
+CM_ BO_ 3221225472 "This is a message for not used signals, created by Vector CANdb++ DBC OLE DB Provider.";
+CM_ SG_ 448 ADV_RealignWayPoint "Indicates whether the ADV is requesting way point for realignment.";
+CM_ SG_ 448 ADV_RealignMode "Indicates whether the ADV is realignment.";
+CM_ SG_ 448 ADV_ReplanWayPoint "Indicates whether the ADV is requesting way point for replanning.";
+CM_ SG_ 448 ADV_ReplanMode "Indicates whether the ADV is replanning.";
+CM_ SG_ 448 ADV_Pose_Angle "The final position of vehicle after parking finished. The position is used forre-alignment.";
+CM_ SG_ 448 ADV_Pose_Y "The final position of vehicle after parking finished. The position is used forre-alignment.";
+CM_ SG_ 448 ADV_Pose_X "The final position of vehicle after parking finished. The position is used forre-alignment.";
+CM_ SG_ 417 APS_Status "APS Status";
+CM_ SG_ 417 APS_ReplanResult "The result of replanning path.";
+CM_ SG_ 417 APS_RealignResult "The result of realignment of path. After the parking is finished, the ADVneed to calculate the position of vehicle and determine whether thevehicle is parked obliquely and more parking action needed.";
+BA_DEF_ BO_  "GenSigTimeoutTime_DUT" INT 0 100000;
+BA_DEF_ BO_  "DiagUudtResponse" ENUM  "false","true";
+BA_DEF_ BO_  "GenMsgFastOnStart" INT 0 65535;
+BA_DEF_ BU_  "NmStationAddress" HEX 0 255;
+BA_DEF_ SG_  "GenSigInactiveValue" INT 0 100000;
+BA_DEF_ SG_  "GenSigSendType" ENUM  "Cyclic","OnWrite","OnWriteWithRepetition","OnChange","OnChangeWithRepetition","IfActive","IfActiveWithRepetition","NoSigSendType","OnChangeAndIfActive","OnChangeAndIfActiveWithRepetition";
+BA_DEF_ SG_  "GenSigStartValue" INT 0 65535;
+BA_DEF_ SG_  "GenSigTimeoutValue" INT 0 1000000000;
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 65535;
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "Cyclic ","NotUsed ","NotUsed ","NotUsed ","NotUsed ","NotUsed ","NotUsed ","IfActive ","NoMsgSendType";
+BA_DEF_ BO_  "DiagRequest" ENUM  "No","Yes";
+BA_DEF_ BO_  "DiagResponse" ENUM  "No","Yes";
+BA_DEF_ BO_  "DiagState" ENUM  "No","Yes";
+BA_DEF_ BO_  "GenMsgCycleTimeFast" INT 0 65535;
+BA_DEF_ BO_  "GenMsgDelayTime" INT 0 1000;
+BA_DEF_ BO_  "GenMsgILSupport" ENUM  "No","Yes";
+BA_DEF_ BO_  "GenMsgNrOfRepetition" INT 0 65535;
+BA_DEF_ BO_  "GenMsgStartDelayTime" INT 0 100000;
+BA_DEF_ BO_  "TpTxIndex" INT 0 10000;
+BA_DEF_ BU_  "ILUsed" ENUM  "No","Yes";
+BA_DEF_ BU_  "NmAsrNode" ENUM  "No","Yes";
+BA_DEF_  "Baudrate" INT 0 0;
+BA_DEF_  "NmType" STRING ;
+BA_DEF_  "Manufacturer" STRING ;
+BA_DEF_  "ILTxTimeout" INT 0 65535;
+BA_DEF_  "DBName" STRING ;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_ BO_  "NmAsrMessage" ENUM  "No","Yes";
+BA_DEF_ BU_  "NmAsrCanMsgReducedTime" INT 0 0;
+BA_DEF_ BU_  "NmAsrCanMsgCycleOffset" INT 0 0;
+BA_DEF_  "NmAsrRepeatMessageTime" INT 0 0;
+BA_DEF_  "NmAsrWaitBusSleepTime" INT 0 0;
+BA_DEF_  "NmAsrTimeoutTime" INT 0 0;
+BA_DEF_  "NmAsrCanMsgCycleTime" INT 0 0;
+BA_DEF_  "NmAsrMessageCount" INT 0 256;
+BA_DEF_ BU_  "NmAsrNodeIdentifier" HEX 0 255;
+BA_DEF_  "NmAsrBaseAddress" HEX 0 0;
+BA_DEF_ SG_  "GenSigTimeoutTime" INT 0 65535;
+BA_DEF_ SG_  "SystemSignalLongSymbol" STRING ;
+BA_DEF_REL_ BU_SG_REL_  "GenSigSuprvRespSubValue" INT 0 0;
+BA_DEF_REL_ BU_SG_REL_  "GenSigSuprvResp" ENUM  "None","TimeoutFlag","TimeoutDefaultValue";
+BA_DEF_DEF_  "GenSigTimeoutTime_DUT" 0;
+BA_DEF_DEF_  "DiagUudtResponse" "false";
+BA_DEF_DEF_  "GenMsgFastOnStart" 0;
+BA_DEF_DEF_  "NmStationAddress" 0;
+BA_DEF_DEF_  "GenSigInactiveValue" 0;
+BA_DEF_DEF_  "GenSigSendType" "NoSigSendType";
+BA_DEF_DEF_  "GenSigStartValue" 0;
+BA_DEF_DEF_  "GenSigTimeoutValue" 0;
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "GenMsgSendType" "NoMsgSendType";
+BA_DEF_DEF_  "DiagRequest" "No";
+BA_DEF_DEF_  "DiagResponse" "No";
+BA_DEF_DEF_  "DiagState" "No";
+BA_DEF_DEF_  "GenMsgCycleTimeFast" 0;
+BA_DEF_DEF_  "GenMsgDelayTime" 0;
+BA_DEF_DEF_  "GenMsgILSupport" "Yes";
+BA_DEF_DEF_  "GenMsgNrOfRepetition" 0;
+BA_DEF_DEF_  "GenMsgStartDelayTime" 0;
+BA_DEF_DEF_  "TpTxIndex" 0;
+BA_DEF_DEF_  "ILUsed" "Yes";
+BA_DEF_DEF_  "NmAsrNode" "No";
+BA_DEF_DEF_  "Baudrate" 500000;
+BA_DEF_DEF_  "NmType" "NmPwrTrainChery";
+BA_DEF_DEF_  "Manufacturer" "Chery";
+BA_DEF_DEF_  "ILTxTimeout" 40;
+BA_DEF_DEF_  "DBName" "";
+BA_DEF_DEF_  "BusType" "CAN";
+BA_DEF_DEF_  "NmAsrMessage" "No";
+BA_DEF_DEF_  "NmAsrCanMsgReducedTime" 0;
+BA_DEF_DEF_  "NmAsrCanMsgCycleOffset" 0;
+BA_DEF_DEF_  "NmAsrRepeatMessageTime" 3200;
+BA_DEF_DEF_  "NmAsrWaitBusSleepTime" 1500;
+BA_DEF_DEF_  "NmAsrTimeoutTime" 2000;
+BA_DEF_DEF_  "NmAsrCanMsgCycleTime" 640;
+BA_DEF_DEF_  "NmAsrMessageCount" 64;
+BA_DEF_DEF_  "NmAsrNodeIdentifier" 0;
+BA_DEF_DEF_  "NmAsrBaseAddress" 0;
+BA_DEF_DEF_  "GenSigTimeoutTime" 0;
+BA_DEF_DEF_REL_ "GenSigSuprvRespSubValue" 0;
+BA_DEF_DEF_REL_ "GenSigSuprvResp" "None";
+BA_DEF_DEF_  "SystemSignalLongSymbol" "";
+BA_ "NmAsrTimeoutTime" 1000;
+BA_ "NmAsrMessageCount" 128;
+BA_ "NmAsrCanMsgCycleTime" 100;
+BA_ "NmAsrWaitBusSleepTime" 5000;
+BA_ "NmAsrRepeatMessageTime" 500;
+BA_ "BusType" "CAN";
+BA_ "Manufacturer" "Vector";
+BA_ "NmType" "NmAsr";
+BA_ "ILTxTimeout" 0;
+BA_ "NmAsrBaseAddress" 1408;
+BA_ "DBName" "AB02_FAW_C100_APA_PrivateCAN";
+BA_ "NmStationAddress" BU_ APA 14;
+BA_ "NmAsrNode" BU_ APA 1;
+BA_ "NmAsrCanMsgReducedTime" BU_ APA 575;
+BA_ "NmAsrNodeIdentifier" BU_ APA 14;
+BA_ "GenMsgSendType" BO_ 721 0;
+BA_ "GenMsgCycleTime" BO_ 721 200;
+BA_ "GenMsgSendType" BO_ 720 0;
+BA_ "GenMsgCycleTime" BO_ 720 200;
+BA_ "GenMsgSendType" BO_ 714 0;
+BA_ "GenMsgCycleTime" BO_ 714 200;
+BA_ "GenMsgSendType" BO_ 713 0;
+BA_ "GenMsgCycleTime" BO_ 713 200;
+BA_ "GenMsgSendType" BO_ 712 0;
+BA_ "GenMsgCycleTime" BO_ 712 200;
+BA_ "GenMsgSendType" BO_ 711 0;
+BA_ "GenMsgCycleTime" BO_ 711 200;
+BA_ "GenMsgSendType" BO_ 710 0;
+BA_ "GenMsgCycleTime" BO_ 710 200;
+BA_ "GenMsgSendType" BO_ 709 0;
+BA_ "GenMsgCycleTime" BO_ 709 200;
+BA_ "GenMsgSendType" BO_ 708 0;
+BA_ "GenMsgCycleTime" BO_ 708 200;
+BA_ "GenMsgSendType" BO_ 707 0;
+BA_ "GenMsgCycleTime" BO_ 707 200;
+BA_ "GenMsgSendType" BO_ 706 0;
+BA_ "GenMsgCycleTime" BO_ 706 200;
+BA_ "GenMsgSendType" BO_ 716 0;
+BA_ "GenMsgCycleTime" BO_ 716 200;
+BA_ "GenMsgSendType" BO_ 715 0;
+BA_ "GenMsgCycleTime" BO_ 715 200;
+BA_ "GenMsgSendType" BO_ 705 0;
+BA_ "GenMsgCycleTime" BO_ 705 200;
+BA_ "GenMsgSendType" BO_ 723 0;
+BA_ "GenMsgDelayTime" BO_ 723 0;
+BA_ "GenMsgCycleTime" BO_ 723 100;
+BA_ "GenMsgSendType" BO_ 722 0;
+BA_ "GenMsgCycleTime" BO_ 722 100;
+BA_ "GenMsgSendType" BO_ 448 0;
+BA_ "GenMsgCycleTime" BO_ 448 100;
+BA_ "GenMsgSendType" BO_ 417 0;
+BA_ "GenMsgCycleTime" BO_ 417 100;
+BA_ "GenSigStartValue" SG_ 721 RightCurb_Angle 2046;
+BA_ "GenSigStartValue" SG_ 721 RightCurb_StartPointY 2046;
+BA_ "GenSigStartValue" SG_ 721 RightCurb_StartPointX 2046;
+BA_ "GenSigStartValue" SG_ 721 RightCurb_EndPointY 2046;
+BA_ "GenSigStartValue" SG_ 721 RightCurb_EndPointX 2046;
+BA_ "GenSigStartValue" SG_ 720 LeftCurb_Angle 2046;
+BA_ "GenSigStartValue" SG_ 720 LeftCurb_StartPointY 2046;
+BA_ "GenSigStartValue" SG_ 720 LeftCurb_StartPointX 2046;
+BA_ "GenSigStartValue" SG_ 720 LeftCurb_EndPointY 2046;
+BA_ "GenSigStartValue" SG_ 720 LeftCurb_EndPointX 2046;
+BA_ "GenSigStartValue" SG_ 714 Freespace9_ObstacleStartPointY 2046;
+BA_ "GenSigStartValue" SG_ 714 Freespace9_ObstacleStartPointX 2046;
+BA_ "SystemSignalLongSymbol" SG_ 714 Freespace9_ObstacleStartPointFla "Freespace9_ObstacleStartPointFlag";
+BA_ "GenSigStartValue" SG_ 714 Freespace9_ObstacleEndPointY 2046;
+BA_ "GenSigStartValue" SG_ 714 Freespace9_ObstacleEndPointX 2046;
+BA_ "GenSigStartValue" SG_ 713 Freespace8_ObstacleStartPointY 2046;
+BA_ "GenSigStartValue" SG_ 713 Freespace8_ObstacleStartPointX 2046;
+BA_ "SystemSignalLongSymbol" SG_ 713 Freespace8_ObstacleStartPointFla "Freespace8_ObstacleStartPointFlag";
+BA_ "GenSigStartValue" SG_ 713 Freespace8_ObstacleEndPointY 2046;
+BA_ "GenSigStartValue" SG_ 713 Freespace8_ObstacleEndPointX 2046;
+BA_ "GenSigStartValue" SG_ 712 Freespace7_ObstacleEndPointY 2046;
+BA_ "GenSigStartValue" SG_ 712 Freespace7_ObstacleEndPointX 2046;
+BA_ "GenSigStartValue" SG_ 712 Freespace7_ObstacleStartPointY 2046;
+BA_ "GenSigStartValue" SG_ 712 Freespace7_ObstacleStartPointX 2046;
+BA_ "SystemSignalLongSymbol" SG_ 712 Freespace7_ObstacleStartPointFla "Freespace7_ObstacleStartPointFlag";
+BA_ "GenSigStartValue" SG_ 711 Freespace6_ObstacleEndPointY 2046;
+BA_ "GenSigStartValue" SG_ 711 Freespace6_ObstacleEndPointX 2046;
+BA_ "SystemSignalLongSymbol" SG_ 711 Freespace6_ObstacleStartPointFla "Freespace6_ObstacleStartPointFlag";
+BA_ "GenSigStartValue" SG_ 711 Freespace6_ObstacleStartPointY 2046;
+BA_ "GenSigStartValue" SG_ 711 Freespace6_ObstacleStartPointX 2046;
+BA_ "SystemSignalLongSymbol" SG_ 710 Freespace5_ObstacleStartPointFla "Freespace5_ObstacleStartPointFlag";
+BA_ "GenSigStartValue" SG_ 710 Freespace5_ObstacleEndPointY 2046;
+BA_ "GenSigStartValue" SG_ 710 Freespace5_ObstacleEndPointX 2046;
+BA_ "GenSigStartValue" SG_ 710 Freespace5_ObstacleStartPointY 2046;
+BA_ "GenSigStartValue" SG_ 710 Freespace5_ObstacleStartPointX 2046;
+BA_ "GenSigStartValue" SG_ 709 Freespace4_ObstacleEndPointY 2046;
+BA_ "GenSigStartValue" SG_ 709 Freespace4_ObstacleEndPointX 2046;
+BA_ "SystemSignalLongSymbol" SG_ 709 Freespace4_ObstacleStartPointFla "Freespace4_ObstacleStartPointFlag";
+BA_ "GenSigStartValue" SG_ 709 Freespace4_ObstacleStartPointY 2046;
+BA_ "GenSigStartValue" SG_ 709 Freespace4_ObstacleStartPointX 2046;
+BA_ "GenSigStartValue" SG_ 708 Freespace3_ObstacleEndPointY 2046;
+BA_ "GenSigStartValue" SG_ 708 Freespace3_ObstacleEndPointX 2046;
+BA_ "SystemSignalLongSymbol" SG_ 708 Freespace3_ObstacleStartPointFla "Freespace3_ObstacleStartPointFlag";
+BA_ "GenSigStartValue" SG_ 708 Freespace3_ObstacleStartPointY 2046;
+BA_ "GenSigStartValue" SG_ 708 Freespace3_ObstacleStartPointX 2046;
+BA_ "GenSigStartValue" SG_ 707 Freespace2_ObstacleEndPointY 2046;
+BA_ "GenSigStartValue" SG_ 707 Freespace2_ObstacleEndPointX 2046;
+BA_ "SystemSignalLongSymbol" SG_ 707 Freespace2_ObstacleStartPointFla "Freespace2_ObstacleStartPointFlag";
+BA_ "GenSigStartValue" SG_ 707 Freespace2_ObstacleStartPointY 2046;
+BA_ "GenSigStartValue" SG_ 707 Freespace2_ObstacleStartPointX 2046;
+BA_ "GenSigStartValue" SG_ 706 Freespace1_ObstacleEndPointY 2046;
+BA_ "GenSigStartValue" SG_ 706 Freespace1_ObstacleEndPointX 2046;
+BA_ "SystemSignalLongSymbol" SG_ 706 Freespace1_ObstacleStartPointFla "Freespace1_ObstacleStartPointFlag";
+BA_ "GenSigStartValue" SG_ 706 Freespace1_ObstacleStartPointY 2046;
+BA_ "GenSigStartValue" SG_ 706 Freespace1_ObstacleStartPointX 2046;
+BA_ "GenSigStartValue" SG_ 716 Freespace11_ObstacleEndPointY 2046;
+BA_ "GenSigStartValue" SG_ 716 Freespace11_ObstacleEndPointX 2046;
+BA_ "GenSigStartValue" SG_ 716 Freespace11_ObstacleStartPointX 2046;
+BA_ "GenSigStartValue" SG_ 716 Freespace11_ObstacleStartPointY 2046;
+BA_ "SystemSignalLongSymbol" SG_ 716 Freespace11_ObstacleStartPointFl "Freespace11_ObstacleStartPointFlag";
+BA_ "GenSigStartValue" SG_ 715 Freespace10_ObstacleEndPointY 2046;
+BA_ "GenSigStartValue" SG_ 715 Freespace10_ObstacleEndPointX 2046;
+BA_ "SystemSignalLongSymbol" SG_ 715 Freespace10_ObstacleStartPointFl "Freespace10_ObstacleStartPointFlag";
+BA_ "GenSigStartValue" SG_ 715 Freespace10_ObstacleStartPointY 2046;
+BA_ "GenSigStartValue" SG_ 715 Freespace10_ObstacleStartPointX 2046;
+BA_ "GenSigStartValue" SG_ 705 Freespace0_ObstacleStartPointX 2046;
+BA_ "GenSigStartValue" SG_ 705 Freespace0_ObstacleStartPointY 2046;
+BA_ "SystemSignalLongSymbol" SG_ 705 Freespace0_ObstacleStartPointFla "Freespace0_ObstacleStartPointFlag";
+BA_ "GenSigStartValue" SG_ 705 Freespace0_ObstacleEndPointX 2046;
+BA_ "GenSigStartValue" SG_ 705 Freespace0_ObstacleEndPointY 2046;
+BA_ "GenSigStartValue" SG_ 723 APS_Replan_UpperLineAngle 2046;
+BA_ "GenSigStartValue" SG_ 723 APS_Replan_UpperLineDistance 2046;
+BA_ "GenSigStartValue" SG_ 722 APS_Replan_RightLineAngle 2046;
+BA_ "GenSigStartValue" SG_ 722 APS_Replant_RightLineDistance 2046;
+BA_ "GenSigStartValue" SG_ 722 APS_Replan_LeftLineAngle 2046;
+BA_ "GenSigStartValue" SG_ 722 APS_Replan_LeftLineDistance 2046;
+BA_ "GenSigSendType" SG_ 448 ADV_RealignWayPoint 0;
+BA_ "GenSigSendType" SG_ 448 ADV_RealignMode 0;
+BA_ "GenSigSendType" SG_ 448 ADV_ReplanWayPoint 0;
+BA_ "GenSigSendType" SG_ 448 ADV_ReplanMode 0;
+BA_ "GenSigSendType" SG_ 448 ADV_Pose_Y 0;
+BA_ "GenSigSendType" SG_ 448 ADV_Pose_X 0;
+BA_ "GenSigSendType" SG_ 417 APS_Status 0;
+BA_ "GenSigSendType" SG_ 417 APS_ReplanResult 0;
+BA_ "GenSigSendType" SG_ 417 APS_RealignResult 0;
+VAL_ 448 ADV_RealignWayPoint 3 "Reserved" 2 "Reserved" 1 "Request" 0 "No Request" ;
+VAL_ 448 ADV_RealignMode 3 "Reserved" 2 "Reserved" 1 "Enabled" 0 "Disabled" ;
+VAL_ 448 ADV_ReplanWayPoint 3 "Reserved" 2 "Reserved" 1 "Request" 0 "No Request" ;
+VAL_ 448 ADV_ReplanMode 3 "Reserved" 2 "Reserved" 1 "Enabled" 0 "Disabled" ;
+VAL_ 417 APS_Status 15 "Reserved" 14 "Reserved" 13 "Reserved" 12 "Reserved" 11 "Error" 10 "Reserved" 9 "Reserved" 8 "Reserved" 7 "Replan" 6 "Parking out" 5 "Parking in" 4 "Map update" 3 "Searching for park-out" 2 "Searching for park-in" 1 "Stand by" 0 "Initial" ;
+VAL_ 417 APS_ReplanResult 3 "Path Generate Failed" 2 "Path Generate Success" 1 "Path Calculating" 0 "Inactive" ;
+VAL_ 417 APS_RealignResult 3 "Path Generate Failed" 2 "Path Generate Success" 1 "Path Calculating" 0 "Inactive" ;
+

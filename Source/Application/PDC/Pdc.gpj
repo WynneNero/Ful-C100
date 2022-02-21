@@ -1,0 +1,4 @@
+#!gbuild
+[Subproject]
+pdcCtrl.c
+sw_timer.c
